@@ -8,5 +8,10 @@ class EnvSenseData:
     self.myList.append(grab_data())
 
   def get_data(self):
-      return self.myList
+    return self.myList
 
+  def print_data(self):
+    print(self.myList)
+
+#Consider changing all this to:
+#handle the fetch from sensor -> upload to dynamo in one function?
