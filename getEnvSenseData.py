@@ -10,5 +10,5 @@ def grab_data():
         "humidity": sense.get_humidity(),
         "pressure": sense.get_pressure()
     }
-    
+
     return (grab_enviro_sensors)
